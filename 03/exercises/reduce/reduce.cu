@@ -47,7 +47,7 @@ __global__ void reduction_gpu(int* elements, int* result, int n) {
 
 
     // Use an atomic increment to calculate the final reduction across all blocks
-    // atomicInc((unsigned int*)(result), 1);
+    // atomicAdd((unsigned int*)(result), 1);
 }
 
 // ===================================================================================
