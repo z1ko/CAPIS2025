@@ -1,3 +1,4 @@
+// compute-sanitizer --leak-check full --tool memcheck
 
 #include <iostream>
 

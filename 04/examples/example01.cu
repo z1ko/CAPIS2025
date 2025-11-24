@@ -1,3 +1,4 @@
+// compute-sanitizer --tool memcheck
 
 #include <iostream>
 
